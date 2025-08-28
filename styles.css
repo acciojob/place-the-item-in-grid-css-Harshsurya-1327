@@ -4,10 +4,10 @@
   display: grid;
   width: 200px;
   height: 200px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 5px; /* optional spacing between items */
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
 }
+
 
 .item {
   background: lightblue;
